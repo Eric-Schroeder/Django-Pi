@@ -5,7 +5,7 @@
 # ========
 # A simple django installer for raspberry pi users.
 #
-# https://github.com/mathgon/Django-Pi
+# https://github.com/Eric-Schroeder/Django-Pi
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -36,7 +36,7 @@ virtualenv --no-site-packages .
 pip install django-fab-deploy
 apt-get install -y build-essential python-dev libmysqlclient-dev
 
-cd DjangoPi/
+cd Django-Pi/
 . ../bin/activate
 
 echo -e "Now we're going to install django and any other packages\n"
